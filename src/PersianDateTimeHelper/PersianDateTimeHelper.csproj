@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+
+    <PackageId>PersianDateTimeHelper</PackageId>
+    <Version>1.0.1</Version>
+    <Copyright>Copyright © 2026 Arman Nasrolahi</Copyright>
+    <Company>M1EVO</Company>
+    <Description>A comprehensive .NET library for Persian (Jalali/Shamsi) calendar operations — holiday detection, working hours, overtime calculation, and Persian date utilities.</Description>
+    <PackageTags>Iran;Persian;Jalali;Shamsi;Holiday;WorkingHours;Calendar;DateTime;تقویم;تعطیلات</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/yourusername/PersianDateTimeHelper</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/yourusername/PersianDateTimeHelper</PackageProjectUrl>
+    <Copyright>Copyright © 2024</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <EmbeddedResource Include="Data\holidays.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+</Project>
