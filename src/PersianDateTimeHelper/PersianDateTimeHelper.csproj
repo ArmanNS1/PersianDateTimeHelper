@@ -9,7 +9,6 @@
     <PackageId>PersianDateTimeHelper</PackageId>
     <Version>1.0.1</Version>
     <Copyright>Copyright © 2026 Arman Nasrolahi</Copyright>
-    <Company>M1EVO</Company>
     <Description>A comprehensive .NET library for Persian (Jalali/Shamsi) calendar operations — holiday detection, working hours, overtime calculation, and Persian date utilities.</Description>
     <PackageTags>Iran;Persian;Jalali;Shamsi;Holiday;WorkingHours;Calendar;DateTime;تقویم;تعطیلات</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
